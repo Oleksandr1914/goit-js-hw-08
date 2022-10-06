@@ -1,6 +1,6 @@
 import throttle from 'lodash.throttle';
 
-getEl = x => document.querySelector(x);
+const getEl = x => document.querySelector(x);
 
 const form = getEl('.feedback-form');
 const emailEl = getEl('input[name="email"]');
