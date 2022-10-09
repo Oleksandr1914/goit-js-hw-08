@@ -22,6 +22,8 @@ function localForm(event) {
 function formLog(event) {
   event.preventDefault();
   console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
+  emailEl.value = '';
+  messageText.value = '';
 }
 
 function formStorage() {
